@@ -68,7 +68,7 @@ apis:
   - url: https://docs.redoxengine.com/api-reference/redox-data-model-api/authenticate-an-oauth-api-key/
     type: Authentication
   - url: https://docs.redoxengine.com/api-reference/error-handling-and-responses/
-    type: Errors
+    type: ErrorCodes
   - url: https://docs.redoxengine.com/api-reference/quotas-and-constraints/
     type: RateLimits
   description: The Redox FHIR R4 API exposes HL7 FHIR R4 resources for healthcare data exchange between connected systems, supporting
@@ -98,7 +98,7 @@ apis:
   - url: https://docs.redoxengine.com/api-reference/redox-data-model-api/authenticate-an-oauth-api-key/
     type: Authentication
   - url: https://docs.redoxengine.com/api-reference/error-handling-and-responses/
-    type: Errors
+    type: ErrorCodes
   - url: https://docs.redoxengine.com/api-reference/quotas-and-constraints/
     type: RateLimits
   description: The Redox Data Model API is Redox's proprietary JSON-based healthcare data exchange surface, organized around
@@ -131,7 +131,7 @@ apis:
   - url: https://docs.redoxengine.com/api-reference/platform-api/authenticate-a-user-level-api-key/
     type: Authentication
   - url: https://docs.redoxengine.com/api-reference/error-handling-and-responses/
-    type: Errors
+    type: ErrorCodes
   - url: https://docs.redoxengine.com/api-reference/quotas-and-constraints/
     type: RateLimits
   description: The Redox Platform API manages Redox organization configuration as code, exposing endpoint categories for access
@@ -153,7 +153,7 @@ apis:
   - url: https://github.com/RedoxEngine/redox-hl7-v2
     type: GitHubRepository
   - url: https://github.com/RedoxEngine/redox-hl7-v2
-    type: SDK
+    type: SDKs
   description: redox-hl7-v2 is Redox's open-source JavaScript library for parsing and generating HL7 v2 messages, useful for
     teams integrating with legacy hospital interfaces or building tools that bridge HL7v2 and JSON-based pipelines outside of
     the hosted Redox platform.
@@ -166,7 +166,7 @@ common:
   url: https://docs.redoxengine.com
 - type: APIReference
   url: https://docs.redoxengine.com/api-reference/
-- type: Quickstart
+- type: GettingStarted
   url: https://docs.redoxengine.com/quickstart-for-redox/
 - type: GettingStarted
   url: https://docs.redoxengine.com/basics/what-is-redox/
@@ -178,7 +178,7 @@ common:
   url: https://docs.redoxengine.com/quickstart-for-redox/
 - type: Pricing
   url: https://www.redoxengine.com/contact/
-- type: SignUp
+- type: Signup
   url: https://www.redoxengine.com/contact/
 - type: Support
   url: https://docs.redoxengine.com/troubleshooting/

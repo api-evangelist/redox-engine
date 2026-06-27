@@ -2,17 +2,17 @@
   "repo": "redox-engine",
   "feeds": [
     {
-      "source": "https://www.redoxengine.com/blog/",
+      "source": "https://redoxengine.com/feed/",
       "feed_url": "https://redoxengine.com/feed/",
       "title": "",
-      "saved": 0,
-      "method": "discovered"
+      "saved": 3,
+      "method": "feed"
     },
     {
       "source": "https://www.redoxengine.com/trust/",
       "error": "HTTPError"
     }
   ],
-  "post_count": 3,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 7,
+  "fetched": "2026-06-27T12:03:07Z"
 }
