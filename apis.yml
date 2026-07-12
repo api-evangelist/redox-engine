@@ -158,6 +158,8 @@ apis:
     teams integrating with legacy hospital interfaces or building tools that bridge HL7v2 and JSON-based pipelines outside of
     the hosted Redox platform.
 common:
+- type: DomainSecurity
+  url: security/redox-engine-domain-security.yml
 - type: Website
   url: https://www.redoxengine.com
 - type: DeveloperPortal
